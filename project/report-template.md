@@ -42,4 +42,4 @@ TODO: Replace the image below with your own.
 ![model_test_score.png](img/model_test_score.png)
 
 ## Summary
-TODO: Add your explanation
+TODO: in terms of RMSE score added feature model performs better but in according to kaggle hpo model performed better
