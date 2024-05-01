@@ -1,45 +1,36 @@
 # Report: Predict Bike Sharing Demand with AutoGluon Solution
-#### NAME HERE
+#### Raghuraj Pratap Yadav
 
 ## Initial Training
-### What did you realize when you tried to submit your predictions? What changes were needed to the output of the predictor to submit your results?
-TODO: Add your explanation
+### When attempting to submit predictions, I realized that negative values were present in the output, which needed to be removed to submit the results.
 
-### What was the top ranked model that performed?
-TODO: Add your explanation
+### The top-ranked model that performed was the WeightedEnsemble_L3.
 
 ## Exploratory data analysis and feature creation
-### What did the exploratory analysis find and how did you add additional features?
-TODO: Add your explanation
+### Exploratory analysis revealed insights such as the impact of weather and season on bike demand. Additional features were created by converting weather and season columns to categorical variables and adding an hours column.
 
-### How much better did your model preform after adding additional features and why do you think that is?
-TODO: Add your explanation
+### After adding additional features, the model performance improved significantly from an initial score of 1.75354 to 0.73169.
 
-## Hyper parameter tuning
-### How much better did your model preform after trying different hyper parameters?
-TODO: Add your explanation
+## Hyperparameter tuning
+### Despite trying different hyperparameters, the model performance did not improve significantly.
 
-### If you were given more time with this dataset, where do you think you would spend more time?
-TODO: Add your explanation
+### If given more time with this dataset, I would focus on hyperparameter tuning and experimenting with various configurations.
 
-### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
-|model|hpo1|hpo2|hpo3|score|
-|--|--|--|--|--|
-|initial|?|?|?|?|
-|add_features|?|?|?|?|
-|hpo|?|?|?|?|
+### Table of model performance:
+| Model        | HPO1    | HPO2    | HPO3    | Score   |
+|--------------|---------|---------|---------|---------|
+| Initial      | Default | Default | Default | 1.75354 |
+| Add Features | Default | Default | Default | 0.73169 |
+| HPO          | HPO     | KNN     | RF      | 0.5375  |
 
-### Create a line plot showing the top model score for the three (or more) training runs during the project.
-
-TODO: Replace the image below with your own.
+### Line plot showing the top model score for the three training runs during the project:
 
 ![model_train_score.png](img/model_train_score.png)
 
-### Create a line plot showing the top kaggle score for the three (or more) prediction submissions during the project.
-
-TODO: Replace the image below with your own.
+### Line plot showing the top Kaggle score for the three prediction submissions during the project:
 
 ![model_test_score.png](img/model_test_score.png)
 
 ## Summary
-TODO: Add your explanation
+Despite the challenges faced, such as negative values in predictions and modest improvements after hyperparameter tuning, the model's performance significantly improved after adding additional features. Continuous refinement and experimentation with hyperparameters are essential for further enhancements.
+
