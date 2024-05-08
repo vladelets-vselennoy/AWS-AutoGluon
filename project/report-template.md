@@ -17,7 +17,7 @@ TODO: it scored very much better from 50 to 1.7
 
 ## Hyper parameter tuning
 ### How much better did your model preform after trying different hyper parameters?
-TODO: not that much good my model performed
+TODO: not that much good my model performed in terms of RMSE
 
 ### If you were given more time with this dataset, where do you think you would spend more time?
 TODO: hyper parameter tuning. trying various configurations
